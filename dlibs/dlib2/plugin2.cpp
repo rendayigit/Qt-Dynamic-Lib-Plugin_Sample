@@ -1,8 +1,8 @@
 #include <QtCore/QDebug>
-#include "../LibInterface.h"
+#include "plugin2.h"
 
 void Plugin::doSomething(QString str) const
 {
-    qDebug()<< "plugin1: " << str;
+    qDebug()<< "plugin2: " << str;
 }
 

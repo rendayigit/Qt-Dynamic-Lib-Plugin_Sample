@@ -1,10 +1,9 @@
 #ifndef LIB_INTERFACE
 #define LIB_INTERFACE
 
-#include "PluginInterface.h"
+#include "../PluginInterface.h"
 
 #include <QtCore/QObject>
-#include <QtCore/QtPlugin>
 
 class Plugin : public QObject, public PluginInterface {
   Q_OBJECT

@@ -1,5 +1,5 @@
 #include <QtCore/QDebug>
-#include "../LibInterface.h"
+#include "plugin3.h"
 
 void Plugin::doSomething(QString str) const
 {

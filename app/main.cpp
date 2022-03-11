@@ -3,7 +3,7 @@
 #include <QtCore/QPluginLoader>
 #include <filesystem>
 
-#include "../dlibs/LibInterface.h"
+#include "../dlibs/PluginInterface.h"
 
 using std::filesystem::current_path;
 
